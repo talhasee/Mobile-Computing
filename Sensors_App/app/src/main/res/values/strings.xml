@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Sensors_App</string>
+    <string name="SensorOFF">SENSOR OFF</string>
+</resources>

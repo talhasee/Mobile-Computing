@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Alarm2Fg"
+    tools:context=".alarm2_Fragment">
+
+    <TimePicker
+        android:id="@+id/timePicker2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:numbersSelectorColor="@color/teal_700"
+        />
+    <Button
+        android:id="@+id/alrmBtn2"
+        android:layout_width="wrap_content"
+        android:text="@string/ALARM2"
+        android:layout_marginTop="360dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginBottom="10dp"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:id="@+id/cancelBtn2"
+        android:layout_width="wrap_content"
+        android:text="@string/Cancel"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="360dp"
+        android:layout_marginStart="220dp"
+        android:layout_height="wrap_content"/>
+
+</RelativeLayout>

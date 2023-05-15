@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Odyssey Review</string>
+    <string name="textview">Odyssey Review</string>
+    <string name="NameAndRole">Name and Role</string>
+    <string name="empty"></string>
+    <string name="RoleOrParticipant"> Audience or Participant</string>
+</resources>

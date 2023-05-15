@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:fillViewport="true"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/layout_color"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:paddingTop="50dp"
+        android:paddingBottom="181dp"
+        >
+        <CheckBox
+            android:id="@+id/DanceBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dance"
+            android:textSize="40sp"
+            android:fontFamily="cursive"
+            android:textStyle="bold"
+            android:textColor="@color/teal_700"
+            android:onClick="onCheckboxListener"
+            >
+        </CheckBox>
+        <RatingBar
+            android:id="@+id/DanceRating"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="Rate Dance Events"
+            ></RatingBar>
+        <CheckBox
+            android:id="@+id/MusicBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Music"
+            android:textSize="40sp"
+
+            android:fontFamily="cursive"
+            android:textStyle="bold"
+            android:textColor="@color/teal_700"
+            android:onClick="onCheckboxListener"
+            >
+        </CheckBox>
+        <RatingBar
+            android:id="@+id/MusicRating"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_marginLeft="0dp"
+            android:contentDescription="Rate Dance Events"
+            ></RatingBar>
+        <CheckBox
+            android:id="@+id/PlayBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Play"
+            android:textSize="40sp"
+
+            android:fontFamily="cursive"
+            android:textStyle="bold"
+            android:textColor="@color/teal_700"
+            android:onClick="onCheckboxListener"
+            >
+        </CheckBox>
+        <RatingBar
+            android:id="@+id/PlayRating"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:contentDescription="Rate Dance Events"
+            ></RatingBar>
+        <CheckBox
+            android:id="@+id/FashionBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="FashionRating"
+            android:textSize="40sp"
+
+            android:fontFamily="cursive"
+            android:textStyle="bold"
+            android:textColor="@color/teal_700"
+            android:onClick="onCheckboxListener"
+            >
+        </CheckBox>
+        <RatingBar
+            android:id="@+id/FashionRating"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:contentDescription="Rate Dance Events"
+            ></RatingBar>
+        <CheckBox
+            android:id="@+id/FoodBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Food"
+            android:textSize="40sp"
+
+            android:fontFamily="cursive"
+            android:textStyle="bold"
+            android:textColor="@color/teal_700"
+            android:onClick="onCheckboxListener"
+            >
+        </CheckBox>
+        <RatingBar
+            android:id="@+id/FoodRating"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:contentDescription="Rate Dance Events"
+            ></RatingBar>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/SubmitButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/next_button_design"
+            android:text="SUBMIT"
+            android:textColor="@color/white"
+           />
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/ClearForm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/clear_form_button_design"
+            android:text="CLEAR FORM"
+            android:padding="15dp"
+            android:layout_marginTop="30dp"
+            android:textColor="@color/white"
+            android:textStyle="italic"
+            ></androidx.appcompat.widget.AppCompatButton>
+    </LinearLayout>
+</ScrollView>

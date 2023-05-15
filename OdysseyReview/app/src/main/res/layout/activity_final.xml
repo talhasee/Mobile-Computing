@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:fillViewport="true"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/layout_color"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:paddingTop="50dp"
+        android:paddingBottom="310dp"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dance"
+            android:textSize="40sp"
+            android:textStyle="italic"
+            android:fontFamily="cursive"
+            android:textColor="@color/teal_700"
+            >
+        </TextView>
+        <RatingBar
+            android:id="@+id/DanceRating"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="Rate Dance Events"
+            ></RatingBar>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Music"
+            android:textSize="40sp"
+
+            android:fontFamily="cursive"
+            android:textStyle="bold"
+            android:textColor="@color/teal_700">
+        </TextView>
+        <RatingBar
+            android:id="@+id/MusicRating"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_marginLeft="0dp"
+            android:contentDescription="Rate Dance Events"
+            ></RatingBar>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Play"
+            android:textSize="40sp"
+
+            android:fontFamily="cursive"
+            android:textStyle="bold"
+            android:textColor="@color/teal_700">
+        </TextView>
+        <RatingBar
+            android:id="@+id/PlayRating"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:contentDescription="Rate Dance Events"
+            ></RatingBar>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fashion"
+            android:textSize="40sp"
+
+            android:fontFamily="cursive"
+            android:textStyle="bold"
+            android:textColor="@color/teal_700">
+        </TextView>
+        <RatingBar
+            android:id="@+id/FashionRating"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:contentDescription="Rate Dance Events"
+            ></RatingBar>
+        <TextView
+            android:id="@+id/FoodText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Food"
+            android:textSize="40sp"
+
+            android:fontFamily="cursive"
+            android:textStyle="bold"
+            android:textColor="@color/teal_700">
+        </TextView>
+        <RatingBar
+            android:id="@+id/FoodRating"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:contentDescription="Rate Dance Events"
+            ></RatingBar>
+    </LinearLayout>
+</ScrollView>
